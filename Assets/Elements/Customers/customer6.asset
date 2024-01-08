@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c09b8cdf9a746d69fa170fbf826bcb, type: 3}
+  m_Name: customer6
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
+  customerName: Vera
+  pronoun: she
+  friendship: 0
+  agreeability: 0.5
+  readability: 2
+  highMaxSpending: 0
+  realMaxSpending: 0
+  compromiseInterval: 0
+  mainWantedItem: mp ring
+  supplementalWantedItem: iron bow
+  talkOptions:
+  - Tell me about yourself.
+  - What's your combat style?
+  - Do you like being on the sentinels?
+  - What magic do you know?
+  branchChoices:
+  - What's the name of the village?
+  - What did the villagers think about you joining the sentinels?
+  - Are you always so curt?
+  - Did learning magic come naturally?
+  - What kind of bow do you use?
+  - I heard you're pretty good with lance skills. Is that true?
+  - Why did you join?
+  - Don't the sentinels help lots of people?
+  - What would you do if you weren't a part of them?
+  - What's the difference between Heal and Healara?
+  - No offensive magic?
+  - What about higher level healing magic?
+  dialogue:
+  - ...I'm Vera. I heard about you from Jack.
+  - Not much to say.
+  - I'm from a small village by here.
+  - Nothing really of note there.
+  - Joined the sentinels a few months back...
+  - 
+  - ...No one likes a nosy merchant.
+  - I said it wasn't important.
+  - 
+  - They all loved the idea.
+  - My parents especially wanted me to join.
+  - And look at me now...
+  - Haha.
+  - 
+  - Ha! That's a good way of putting it.
+  - I'll have to use that in the future...
+  - The next time Leon calls me rude, at least.
+  - Thanks.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - I usually stay in the backline, attacking my enemies from afar.
+  - I used to like archery as a kid... so bows came naturally.
+  - Being in the back also means I'm in a good spot to heal people.
+  - So... I learned healing magic.
+  - 
+  - I suppose. I picked it up pretty quickly.
+  - Never really tried anything other than healing magic though, so who knows about
+    other kinds.
+  - I guess it doesn't come easily to everyone, huh?
+  - 
+  - Recently, I've been using a steel bow.
+  - It's supposed to be stronger than iron, but it weighs you down more.
+  - I can use it just fine, but...
+  - To be honest, I prefer my old iron bow.
+  - Unfortunately, I sold it to get a steel one...
+  - 
+  - '!'
+  - Who told you tha-
+  - Never mind. I can guess.
+  - Sigh...
+  - Yeah, I've been practicing them. I hope to someday be good enough to use lances
+    in real combat.
+  - Even though bows are nice, that would just be... really cool.
+  - 
+  - 
+  - 
+  - 
+  - Eh, it's alright I guess.
+  - Not much to complain about, but it also doesn't really do anything for me.
+  - Know what I mean?
+  - 
+  - Back in my village, I was considered a prodigy.
+  - Archery, magic... you name it, I could probably do it. In their eyes, at least.
+  - To them, if I didn't join the fabled, heroic sentinels...
+  - It would be a waste of talent.
+  - If you couldn't tell, I don't quite share their views... But the sentinels are
+    fine.
+  - 
+  - Yeah, they do.
+  - Sometimes I just can't shake this not great feeling I have about them though...
+  - It's not really founded in anything. Something just feels off.
+  - 
+  - Hmm... That's a good question.
+  - If I had to say something now...
+  - I think I would participate in combat tournaments.
+  - If I learned some offensive magic to complement the healing I already know, I
+    believe I could do pretty well.
+  - ...That's a nice thought.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Not much.
+  - Heal and Healara for restoring health...
+  - And Ward for preventing instant death.
+  - Don't think I need much else at this point!
+  - 
+  - Healara is stronger, as in it restores more health to the target.
+  - It costs more MP to use though, so there are situations where Heal is better.
+  - Got it? This will be on the test.
+  - 
+  - Nah, it doesn't really seem worth it to me.
+  - I would have to use a rod instead of a bow if I wanted my magic like that to
+    be powerful...
+  - And I can heal just fine using a bow, so my current setup seems more worth it.
+  - 
+  - Anything higher level than what I can use right now would cost too much MP.
+  - Maybe once I gain some more experience, that'll be worth putting time into...
+  - But until then, I'm good.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  currentDialogue: 0
+  currentDialogueOption: 0
+  customerInfo: {fileID: 0}
+  specialIndex: 99
+  specialFlag: 0
+  dialoguePortraits: 00000000000000000000000000000000000000000000000003000000000000000000000000000000000000000200000001000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000020000000000000001000000000000000100000000000000000000000500000005000000000000000500000000000000060000000600000003000000050000000000000001000000000000000000000000000000000000000000000000000000060000000000000000000000010000000200000000000000010000000000000000000000050000000300000000000000060000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000050000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000
+  talkJumps: 0100000019000000320000004b000000
+  endIndices: 070000000c0000001100000020000000260000002d0000003a0000003e0000004400000052000000560000005a000000
+  endFlag: 0
+  questionIndices: 040000001c000000340000004e000000
+  questionJumps: 06000000090000000e0000001e0000002200000028000000360000003c00000040000000500000005400000058000000
+  questionFlag: 0
+  infoIndices: 63000000
+  infoFlag: 0
+  isTalking: 0
+  isBuying: 0
+  branchLocked: 1
+  lockedIndex: 1
+  requiredInfo: {fileID: 11400000, guid: d2b1d358c5d494735af8c9c35a4cbd0e, type: 2}
+  friendshipIndices: 0c0000000e000000200000002d000000440000005200000063000000630000006300000063000000
+  friendshipValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  friendshipFlag: 0
+  intuitionIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  intuitionFlag: 0
+  orderIndices: 3c000000630000006300000063000000630000006300000063000000630000006300000063000000
+  neutralIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  chaosIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  orderFlag: 0
+  neutralFlag: 0
+  chaosFlag: 0
+  buyDialogue:
+  - Could I buy that MP ring? I think it could be useful.
+  - ...What about the ring?
+  - ...I shouldn't.
+  - What's the price?
+  - Thanks.
+  - ...Too expensive.
+  - 'How about... '
+  - Sounds good to me.
+  - I suppose that works...
+  - Sorry, can't do that.
+  - Hmm... An iron bow might be nice, but why should I downgrade from steel?
+  - Taking more actions in combat is always better.
+  - The difference in power isn't great enough to justify using steel.
+  - As a healer, being able to move quicker is even more important.
+  - Always? No need to generalize.
+  - As someone who has actually used a steel bow... The difference in power is more
+    sizeable than you might think.
+  - ...That's fair. Who knows when exactly my allies will need healing, after all.
+  - I'll survive with just the ring, thanks.
+  - Fine, I'll get the bow too.
+  - 
+  correctSupplementalIndex: 16
+  wantsToTrade: 0
+  isTrading: 0
+  mainSaleWentThrough: 0
+  suppSaleWentThrough: 0
+  saleDifference: 0
+  buyPortraits: 0000000005000000050000000600000001000000050000000600000001000000050000000000000006000000000000000000000000000000000000000300000000000000000000000100000000000000
+  portraits:
+  - {fileID: 21300000, guid: 6a3940ef601ab4328b491d90d9d32725, type: 3}
+  - {fileID: 21300000, guid: 31feb4fb324974129bdbda4c7d03f5c8, type: 3}
+  - {fileID: 21300000, guid: bf6f1642c14ce430d9f4eb54f0e5025a, type: 3}
+  - {fileID: 21300000, guid: c5328bc7644dc4cf88b583bbb9b3a150, type: 3}
+  - {fileID: 21300000, guid: 7b1ece14be81f4497bdbf93ca138c959, type: 3}
+  - {fileID: 21300000, guid: 7488ded7b13434499abf27c55978e4ad, type: 3}
+  - {fileID: 21300000, guid: a692dde4de250499db06d614f6d45e41, type: 3}

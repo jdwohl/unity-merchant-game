@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c09b8cdf9a746d69fa170fbf826bcb, type: 3}
+  m_Name: customer4
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
+  customerName: Elise
+  pronoun: she
+  friendship: 0
+  agreeability: 0.25
+  readability: 0
+  highMaxSpending: 0
+  realMaxSpending: 0
+  compromiseInterval: 0
+  mainWantedItem: potion x2
+  supplementalWantedItem: unknown scroll
+  talkOptions:
+  - What brings you here today?
+  - Learn any new magic?
+  - What are you up to today?
+  - Any tips for combat?
+  branchChoices:
+  - What do you need the potions for?
+  - Anything else you might want?
+  - Are you planning to head back home soon?
+  - Is there anything that you know is holding you back?
+  - What about healing magic?
+  - Anything I can do to help?
+  - I know one of them at least. He's nice.
+  - I'd like to meet more of them as well...
+  - I heard they're going to fight monsters in a cave to the west!
+  - What's the most important spell you know?
+  - Are there any status effects I should know about?
+  - That was helpful, thanks!
+  dialogue:
+  - Hello again.
+  - I'm here to buy some potions from you.
+  - Figured it's best to be prepared!
+  - Do I need a better reason to come see you? Hee hee.
+  - 
+  - What can I say? You can never be too prepared.
+  - It's not for anything specific... Just because of the monsters around here.
+  - Wouldn't want my journey home to be my last...
+  - 
+  - Nothing in particular!
+  - Though who knows, maybe you can convince me to get something...
+  - That's on you, however. Hee hee.
+  - 
+  - Nice guess. That's correct.
+  - With the monsters being different recently...
+  - I figured it would be best to have potions for instant, no MP cost healing.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Since I last saw you, well...
+  - I've been trying at least.
+  - My collection of tomes is now quite sizeable...
+  - But I haven't made any real progress.
+  - 
+  - Hmm, I'm not sure.
+  - Now that I'm thinking about it, I've only ever tried to teach myself.
+  - Maybe a teacher would be able to help me make better progress.
+  - Thanks for the idea!
+  - 
+  - Oh, were you asking about that originally?
+  - I didn't even consider it!
+  - Nah, I still know the same-old same-old.
+  - If only I could do real magic... I'd love to be able to read a scroll someday.
+  - 
+  - That's sweet of you to say.
+  - I think it's more of a personal problem though...
+  - Maybe the magic I'm trying to learn is too simple for my brain to really work
+    at, haha.
+  - Something more mysterious and enigmatic might be more my style...
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Today? Hmm...
+  - I didn't really have anything in mind.
+  - Actually... The church is still around, right?
+  - I'd like to see these new sentinel recruits.
+  - I know my father would want to see who's taking up the mantle of the church...
+  - 
+  - Oh really? That's good to hear.
+  - Someday I'd like to know more about him.
+  - Well, if you two are friends, maybe I'll see him at your stand sometime!
+  - 
+  - More of them? So you know one?
+  - So mysterious... You seem to really know what gets me intrigued.
+  - ...Hee hee.
+  - 
+  - A cave to the west? That sounds exciting...
+  - Maybe I'll check it out and see these new recruits for myself.
+  - Thanks for telling me about it!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - You're asking me? Someone else may be better equipped...
+  - I don't know too much about actual fighting.
+  - It's difficult to do lots of damage with a stave, after all!
+  - Though I will say, a lot of people think it's necessary to conserve their MP
+    for the possible next fight.
+  - 'In reality, this is just wrong. '
+  - MP regenerates when you're not fighting someone, so you should go all out with
+    your spells every fight.
+  - 
+  - I would probably say Ward.
+  - It's a spell that prevents the instant death status condition for the whole party...
+  - For obvious reasons, such a spell is very nice to have.
+  - 
+  - Well, there's poison, paralysis, despair...
+  - Instant death is probably the one you should be most concerned about though.
+  - You'll pretty much need a spell like Ward in your arsenal at all times to be
+    able to prevent it.
+  - One cast and it protects the whole party!
+  - They'll only be at 1 HP after though, so be careful.
+  - 
+  - No problem!
+  - I'm glad to hear that I could help with something combat-related.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  currentDialogue: 0
+  currentDialogueOption: 0
+  customerInfo: {fileID: 11400000, guid: 225317ed13f6948b6a30f3deda7d41ea, type: 2}
+  specialIndex: 64
+  specialFlag: 0
+  dialoguePortraits: 01000000000000000100000002000000000000000100000005000000050000000000000001000000020000000100000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000050000000000000006000000000000000000000001000000000000000600000001000000000000000500000000000000000000000500000001000000000000000000000000000000000000000000000000000000000000000600000000000000000000000100000002000000000000000600000000000000010000000000000006000000000000000100000000000000060000000000000001000000000000000000000000000000000000000000000000000000000000000000000006000000050000000100000000000000000000000200000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000100000000000000000000000000000000000000000000000000000000000000
+  talkJumps: 0100000019000000320000004b000000
+  endIndices: 070000000b0000000f00000021000000260000002b0000003a0000003e00000042000000540000005a0000005d000000
+  endFlag: 0
+  questionIndices: 030000001c0000003600000050000000
+  questionJumps: 05000000090000000d0000001e0000002300000028000000380000003c0000004000000052000000560000005c000000
+  questionFlag: 0
+  infoIndices: 5300000059000000
+  infoFlag: 0
+  isTalking: 0
+  isBuying: 0
+  branchLocked: 1
+  lockedIndex: 2
+  requiredInfo: {fileID: 11400000, guid: b1d84e13d75fd4b93a3a63f8925ab721, type: 2}
+  friendshipIndices: 21000000280000003d000000420000005d0000006300000063000000630000006300000063000000
+  friendshipValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  friendshipFlag: 0
+  intuitionIndices: 0d000000630000006300000063000000630000006300000063000000630000006300000063000000
+  intuitionFlag: 0
+  orderIndices: 38000000630000006300000063000000630000006300000063000000630000006300000063000000
+  neutralIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  chaosIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  orderFlag: 0
+  neutralFlag: 0
+  chaosFlag: 0
+  buyDialogue:
+  - Right, so... Can I get some potions?
+  - ...Did you hear me right? I wanted potions.
+  - Don't want all that.
+  - What's the price?
+  - Thanks!
+  - Too much.
+  - 'How about '
+  - Sounds good.
+  - That's... okay with me.
+  - Ouch...
+  - An unknown scroll? Sounds intriguing... But why should I invest so much into
+    something that probably won't pan out?
+  - You need a challenge to force yourself to really try.
+  - The effort of figuring it out will be worth it.
+  - Perhaps the allure of the unknown will help you learn!
+  - I'm inclined to agree. Maybe I can really do it if I have to put my mind to it...
+  - Maybe for a simpler spell... But it would be too much of a commitment for something
+    so mysterious if I can't figure it out.
+  - That may be true, but that alone doesn't convince me.
+  - Just the potions, if that's alright.
+  - Hey, why not. I'll buy the scroll too!
+  - 
+  correctSupplementalIndex: 14
+  wantsToTrade: 0
+  isTrading: 0
+  mainSaleWentThrough: 0
+  suppSaleWentThrough: 0
+  saleDifference: 0
+  buyPortraits: 0000000005000000050000000600000001000000050000000600000001000000000000000500000006000000000000000000000000000000000000000500000005000000000000000100000000000000
+  portraits:
+  - {fileID: 21300000, guid: 811e7ba77291944d6b3f8721f83f7983, type: 3}
+  - {fileID: 21300000, guid: c1c8c95bf9bd64721ae5d4adaca5d540, type: 3}
+  - {fileID: 21300000, guid: 7c52a59beabbe4f8c947f1eab0d47485, type: 3}
+  - {fileID: 21300000, guid: 7860aacb7e9df4cf1979b45557b9eab3, type: 3}
+  - {fileID: 21300000, guid: 909bad582a1484fc59346e2480784e54, type: 3}
+  - {fileID: 21300000, guid: d85371994c9504115a4887683133ba97, type: 3}
+  - {fileID: 21300000, guid: 531df2770e388480e869ff5bb8f84ca2, type: 3}

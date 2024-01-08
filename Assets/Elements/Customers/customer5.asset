@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c09b8cdf9a746d69fa170fbf826bcb, type: 3}
+  m_Name: customer5
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
+  customerName: Leon
+  pronoun: he
+  friendship: 0
+  agreeability: 0.8
+  readability: 1
+  highMaxSpending: 0
+  realMaxSpending: 0
+  compromiseInterval: 0
+  mainWantedItem: iron axe
+  supplementalWantedItem: iron lance
+  talkOptions:
+  - Tell me about yourself.
+  - Where are you from?
+  - What made you join the sentinels?
+  - Who else do you know in the sentinels?
+  branchChoices:
+  - What kind of axe do you use?
+  - Why axes?
+  - What do you like to craft?
+  - I'd love to!
+  - When were you home last?
+  - It would be good if I brought some of the resources around here, right?
+  - That's great! I bet you've helped out a lot of people.
+  - It seems like you've met a lot of great people in the sentinels too.
+  - Have you seen anything suspicious from the church since you joined?
+  - What's her role in the sentinels?
+  - Anything I should know about her?
+  - Why is she scary?
+  dialogue:
+  - You're the merchant, right? Jack told us sentinels about you.
+  - The name's Leon.
+  - I've been with the sentinels for a couple years now.
+  - I use axes in combat, which led to me getting interested in woodcutting as well.
+  - Craftsmanship came from that too!
+  - 
+  - Usually iron. However...
+  - The one I've been using for a while just broke the other day!
+  - So right now I'm using a bronze one.
+  - I was actually hoping you could sell me that iron one of yours...
+  - 
+  - Hard to say for sure.
+  - I've always been on the stronger side, so I guess I figured I'd make use of that!
+  - The big, sweeping swings also feel satisfying.
+  - 
+  - I enjoy working with weapons and shields...
+  - Though I have to do that pretty often for the sentinels, meaning it feels more
+    like work now.
+  - So I'd say what I like crafting the most are smaller wooden sculptures.
+  - Thanks for asking!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - I'm from Scorva. Not sure if you've heard of it.
+  - Big, hot desert country in the east.
+  - It's a great place -- you should come visit sometime!
+  - 
+  - Good to hear.
+  - I think we sentinels will be going in a few months...
+  - Maybe you could stop by then!
+  - 
+  - Hmm...
+  - Honestly, it's been quite a while.
+  - Don't think I've been after I joined the sentinels, actually.
+  - I'll be going back soon though, so I can hold out!
+  - 
+  - Ah, so you have heard about Scorva before! Haha.
+  - You're right. Trees and water sources and things like that... are pretty scarce
+    over there.
+  - So anything you could bring would be good for the people there...
+  - You could probably make a lot of sales!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - To be honest..
+  - I joined after the sentinels helped out my hometown.
+  - They don't come out to Scorva very often, so it was really nice of them.
+  - A similar thing was happening to the monsters out there... More aggressive and
+    the like.
+  - They helped us out, so I joined them! Simple as that really.
+  - 
+  - I'd like to think so!
+  - Monsters all over the world have been acting differently...
+  - No idea what's up with that, but we do our best to stop them from hurting people.
+  - I think that's a great thing.
+  - 
+  - I agree!
+  - I'm really lucky, honestly.
+  - I didn't have many friends before I joined, so the sentinels have been...
+  - Well, a godsend!
+  - 
+  - Er... Suspicious?
+  - I don't think so...
+  - I've only ever seen good deeds from them.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Besides Jack...
+  - My best friend in the sentinels is probably Vera.
+  - She's a girl from somewhere around here.
+  - A good person for sure, but a little scary at times.
+  - Jack told us about you at the same time, so you might see her as well!
+  - 
+  - She's one of our best healers.
+  - She also uses a bow as a weapon, which works well since healers aren't supposed
+    to get too close to the fight.
+  - To tell you the truth, though...
+  - Don't tell her I said this, but she really likes fighting with lances as well.
+  - Closer range combat has been an interest for her recently, and she's been getting
+    good at lance skills.
+  - I wish I could help her out somehow...
+  - 
+  - What to know about her...
+  - Well, she's a healer, but she focuses more on attacking than most healers I've
+    seen.
+  - She mainly uses bows, but she secretly wants to switch to using lances.
+  - She's gotten quite good at lance skills!
+  - Although the lance she uses is pretty cheap, I don't think she would buy a better
+    one for herself... She's a bit stingy, you see.
+  - Hmm, maybe if I could... nah, never mind.
+  - 
+  - Ha! She just can get pretty serious and stubborn sometimes.
+  - If I were you, I wouldn't do anything to make her angry.
+  - 
+  - 
+  - 
+  currentDialogue: 0
+  currentDialogueOption: 0
+  customerInfo: {fileID: 11400000, guid: d2b1d358c5d494735af8c9c35a4cbd0e, type: 2}
+  dialoguePortraits: 01000000000000000000000002000000010000000000000000000000010000000000000002000000000000000000000001000000000000000000000000000000050000000000000001000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000010000000000000006000000050000000500000001000000000000000100000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000300000001000000000000000100000003000000000000000200000000000000010000000000000005000000010000000000000006000000050000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000010000000000000002000000000000000000000002000000020000000500000000000000060000000200000000000000010000000500000000000000000000000100000000000000000000000000000000000000
+  talkJumps: 0100000019000000320000004b000000
+  endIndices: 090000000d000000120000001f00000024000000290000003b0000004000000044000000560000005d00000060000000
+  endFlag: 0
+  questionIndices: 040000001b000000360000004f000000
+  questionJumps: 060000000b0000000f0000001d0000002100000026000000380000003d0000004200000051000000580000005f000000
+  questionFlag: 0
+  infoIndices: 550000005b000000
+  infoFlag: 0
+  isTalking: 0
+  isBuying: 0
+  branchLocked: 1
+  lockedIndex: 1
+  requiredInfo: {fileID: 11400000, guid: 67fa6b4d837f44bd4936b925cb8fa915, type: 2}
+  friendshipIndices: 120000001d0000003d00000063000000630000006300000063000000630000006300000063000000
+  friendshipValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  friendshipFlag: 0
+  intuitionIndices: 27000000630000006300000063000000630000006300000063000000630000006300000063000000
+  intuitionFlag: 0
+  orderIndices: 38000000630000006300000063000000630000006300000063000000630000006300000063000000
+  neutralIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  chaosIndices: 42000000630000006300000063000000630000006300000063000000630000006300000063000000
+  orderFlag: 0
+  neutralFlag: 0
+  chaosFlag: 0
+  buyDialogue:
+  - Say, could I get that axe you have there?
+  - ...Where's the axe?
+  - Just the axe, please.
+  - How much do you want?
+  - Thank you kindly!
+  - Whoa, that's too high.
+  - 'How about '
+  - I'm good with that!
+  - Sure, that's fine.
+  - Too much, sorry.
+  - Ah, an iron lance! I could get it for Vera... But would she accept it from me?
+    She mostly uses bows...
+  - Even if she doesn't, it's a nice gesture.
+  - A new lance could be just the thing to make her officially switch!
+  - If it's coming from you, there's no way she can refuse a gift.
+  - True, but... That's a lot of money I'd be throwing away for a gesure.
+  - That's true! And if she wants to switch over to lances fully... Then she couldn't
+    really refuse.
+  - I wish I could say that for sure... She could very well be too stubborn to accept
+    it from anyone though.
+  - Just the axe would be best, I think.
+  - Sure, I'll buy the lance as well!
+  - 
+  correctSupplementalIndex: 15
+  wantsToTrade: 0
+  isTrading: 0
+  mainSaleWentThrough: 0
+  suppSaleWentThrough: 0
+  saleDifference: 0
+  buyPortraits: 0600000005000000000000000600000001000000050000000600000001000000000000000500000006000000000000000000000000000000050000000100000005000000000000000100000000000000
+  portraits:
+  - {fileID: 21300000, guid: 7002a631cdb3b4b63aa4cb307885b699, type: 3}
+  - {fileID: 21300000, guid: 26006007330ff4fe0b1828a884ed796c, type: 3}
+  - {fileID: 21300000, guid: 05c78e3bb50434cf7a092b242db261ee, type: 3}
+  - {fileID: 21300000, guid: 7f2816426b8db4b389af11c45c7cda04, type: 3}
+  - {fileID: 21300000, guid: 67e588de3e75a43b3b691f9ea24e55df, type: 3}
+  - {fileID: 21300000, guid: 9ba9091cee6334e08bf1f6bb270b9ccf, type: 3}
+  - {fileID: 21300000, guid: bcff59fdb80d44b36bb5a350e7455b0d, type: 3}

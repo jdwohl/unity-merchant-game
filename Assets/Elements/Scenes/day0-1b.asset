@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day0-1b
+  m_EditorClassIdentifier: 
+  sceneIndex: 1
+  sceneRoute: b
+  sceneDialogue:
+  - Phew...
+  - That was tough.
+  - Really wish I had bought that iron sword...
+  - Haha. That would have made things easier.
+  - Thanks for helping me out in the battle though...
+  - I kind of froze up when those wolves came charging at us.
+  - If you weren't there... Who knows what would have happened to me.
+  - I'll have to be more prepared in the future...
+  - Oh shoot, I should probably get going now!
+  - My exam is soon and I can barely walk, haha.
+  - See you later!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 5
+  sceneQuestionIndex: 99
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - 
+  - 
+  lockedOptionIndex: 99
+  statToCheck: 
+  statValue: 0
+  lockedRouteChange: 
+  sceneJumps: 0000000000000000
+  sceneEndIndices: 0a00000063000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 0
+  endOfDay: 1
+  changeMusicFlag: 0
+  changeMusicIndices: 0100000063000000
+  musicToPlay: happy
+  characters:
+  - {fileID: 11400000, guid: b2700b4a525a44019a5127b9424b0548, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  characterTalking: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 00000000050000000500000001000000000000000500000005000000000000000600000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

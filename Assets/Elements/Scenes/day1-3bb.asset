@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day1-3bb
+  m_EditorClassIdentifier: 
+  sceneIndex: 3
+  sceneRoute: bb
+  sceneDialogue:
+  - My father... was a priest for the church.
+  - If I ever told you something about like that, it was the truth.
+  - Not everything was...
+  - I wanted you to trust me, but... I couldn't hide everything.
+  - Anyway, supposedly... he discovered something.
+  - Something secret about the church.
+  - Something that he wasn't supposed to know.
+  - He never told anyone about it, not even me.
+  - And now his secret is lost forever...
+  - They killed him because he knew something that they didn't want getting out.
+  - I know it was the church. It can't just be a coincidence.
+  - My guess is that it was the sentinels.
+  - So... that's why I need revenge.
+  - If I could learn the secret that my father gave his life for while I'm at it...
+  - That would be real nice.
+  - Any questions?
+  - 
+  - I can't be 100% sure.
+  - But... I can sense it.
+  - If he know what I was doing, he would be happy.
+  - And together... we will make him proud.
+  - I can sense that too.
+  - 
+  - Huh? No... I have no idea who that is.
+  - I don't think I could ever do something like that...
+  - Well, I'm glad we could clear that up.
+  - Now nothing will stand in our way...
+  - Hee hee.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 0
+  sceneQuestionIndex: 15
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - Are you sure this is what your father wanted?
+  - Are you the witch who kidnaps children?
+  lockedOptionIndex: 99
+  statToCheck: 
+  statValue: 0
+  lockedRouteChange: 
+  sceneJumps: 11000000170000001700000017000000
+  sceneEndIndices: 150000001b000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 0
+  endOfDay: 1
+  changeMusicFlag: 0
+  changeMusicIndices: 0000000000000000
+  musicToPlay: 
+  characters:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 501f1f962be2c49e0af5ce7c5955e436, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  characterTalking: 04000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 00000000000000000500000000000000030000000300000003000000050000000500000003000000030000000300000000000000020000000000000001000000000000000000000002000000020000000200000001000000000000000600000005000000000000000200000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

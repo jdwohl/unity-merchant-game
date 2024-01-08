@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day1-3b
+  m_EditorClassIdentifier: 
+  sceneIndex: 3
+  sceneRoute: b
+  sceneDialogue:
+  - Hey, don't be too hard on that merchant...
+  - The kid probably had no idea about that girl's powers.
+  - Mistakes happen, you know?
+  - Plus, nobody died. Everyone just got roughed up a bit, but... we'll survive.
+  - That's true...
+  - I just can't believe I trusted so easily.
+  - It's my fault as well that people got hurt...
+  - ...
+  - Well, I've learned.
+  - I'll make sure that never happens again.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 0
+  sceneQuestionIndex: 99
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - 
+  - 
+  lockedOptionIndex: 99
+  statToCheck: 
+  statValue: 0
+  lockedRouteChange: 
+  sceneJumps: 0000000000000000
+  sceneEndIndices: 0900000063000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 0
+  endOfDay: 1
+  changeMusicFlag: 0
+  changeMusicIndices: 0700000007000000
+  musicToPlay: suspense
+  characters:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b76eebe4b56a4418d9b3c30971c6bdde, type: 2}
+  - {fileID: 11400000, guid: 501f1f962be2c49e0af5ce7c5955e436, type: 2}
+  - {fileID: 11400000, guid: 934572f83ad0b4e6ca05c8dbcbf07bde, type: 2}
+  - {fileID: 11400000, guid: e5480da64e1e543af8f5de13175cbba8, type: 2}
+  characterTalking: 05000000050000000500000005000000030000000300000003000000030000000300000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 05000000000000000500000000000000000000000500000005000000050000000300000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

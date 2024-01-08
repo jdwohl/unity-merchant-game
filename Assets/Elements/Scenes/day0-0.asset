@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day0-0
+  m_EditorClassIdentifier: 
+  sceneIndex: 0
+  sceneRoute: a
+  sceneDialogue:
+  - Hey, it's the merchant!
+  - I was looking for you...
+  - There's still some time before the sentinel exam, so I was wondering if-
+  - Hey... what's that?
+  - Are those... wolves?
+  - They're coming at us...
+  - Agh!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 3
+  sceneQuestionIndex: 99
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - 
+  - 
+  lockedOptionIndex: 99
+  statToCheck: 
+  statValue: 0
+  lockedRouteChange: 
+  sceneJumps: 0000000000000000
+  sceneEndIndices: 0600000063000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 1
+  endOfDay: 0
+  changeMusicFlag: 0
+  changeMusicIndices: 0400000063000000
+  musicToPlay: suspense
+  characters:
+  - {fileID: 11400000, guid: b2700b4a525a44019a5127b9424b0548, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  characterTalking: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 01000000000000000200000006000000060000000500000006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

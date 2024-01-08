@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c09b8cdf9a746d69fa170fbf826bcb, type: 3}
+  m_Name: customer0
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
+  customerName: Jack
+  pronoun: he
+  friendship: 0
+  agreeability: 1
+  readability: 3
+  highMaxSpending: 52
+  realMaxSpending: 47
+  compromiseInterval: 37
+  mainWantedItem: iron sword
+  supplementalWantedItem: potion x2
+  talkOptions:
+  - Where are you from?
+  - How do you feel about the church?
+  - What's your plan for the day?
+  - Any news you've heard recently?
+  branchChoices:
+  - Yeah, it's a great place!
+  - It's okay... lots of problems though.
+  - Besides the monsters, I guess so.
+  - To be honest, I hadn't heard of them before now.
+  - They seem great! Really powerful too.
+  - That sounds scary...
+  - Keep the pressure up by always attacking when you have the chance.
+  - Make good use of skills to keep your enemy guessing!
+  - If you can, act to secure your advantage before the fight starts.
+  - Not much, I still have a lot to learn.
+  - I've been to quite a few places, so I would say I know a thing or two.
+  - How much you know isn't important, but how you interpret that knowledge is.
+  dialogue:
+  - Nice to meet you, I'm Jack! Would I be able to buy that iron sword there?
+  - Born and raised right here in Bloom, actually!
+  - It's always so peaceful here, I really like it.
+  - You're from a nearby town, right? Do you like it there?
+  - 
+  - That's great to hear! It sounds like a wonderful place.
+  - I hope I can travel there someday!
+  - 
+  - Oh... Sorry to hear that. I hope it gets better over there.
+  - I wonder if there's anything I could do to help...
+  - 
+  - Monsters? Wow, I wasn't expecting that.
+  - Can't say that I've ever seen a real monster...
+  - I hope it stays that way, haha!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - I think it's great! They help so many people.
+  - In fact, I want to become a part of it someday.
+  - Actually, the reason I want the iron sword is so I can do better on the sentinel
+    exam...
+  - They don't allow us to use potions during it, but I imagine having a better sword
+    would definitely help.
+  - How do you feel about the sentinels?
+  - 
+  - Oh, really? I assumed everyone knew.
+  - They're a faction of the church that specializes in combat.
+  - Sentinels travel the world and save people from monsters.
+  - I want to be a part of their group someday!
+  - 
+  - Right?! They're amazing!
+  - It's always great to find people who like them.
+  - It only makes me want to join their group more...
+  - 
+  - Er, I guess it could be seen as scary...
+  - They are pretty strong after all.
+  - I think it depends on how they use that power, and it seems to me that they only
+    use it for good.
+  - I understand your point, though.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - To be honest, all I've been thinking about is the sentinel exam later today.
+  - Supposedly, they watch you as you spar with one of their own...
+  - Scary, right? It's gonna be exciting though!
+  - Any advice for combat?
+  - 
+  - That's a good idea! I shouldn't give my opponent a chance to rest.
+  - I like your style.
+  - Maybe you could try out to be a sentinel too? We could be partners!
+  - Just kidding... Sorta.
+  - 
+  - A good idea for sure...
+  - Unfortunately, I don't know any skills.
+  - I hope that won't be a problem...
+  - 
+  - Huh... I suppose that's a good strategy.
+  - Something along the lines of never taking a fair fight, yeah?
+  - I've heard that mantra before. Not really my style though...
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - News? I've got nothing, to be honest.
+  - I'm not really in the know around here though, even though I live here.
+  - Funny how that works!
+  - I feel like I should take this opportunity to ask you something...
+  - How much would you say you know about the world?
+  - I'm curious to hear your perspective as a merchant.
+  - 
+  - I appreciate your honesty.
+  - Being open about not knowing as much as you'd like is very respectable.
+  - 
+  - That's great! I hope to travel even half as much someday.
+  - Maybe I can once I'm a part of the sentinels...
+  - If I get in, that is. Haha...
+  - 
+  - That's... more profound than I was expecting.
+  - It also didn't really answer my question, but I suppose that will remain a mystery!
+  - I like that idea. If you mold everything you learn to fit with what you already
+    believe...
+  - In a way, that's likely invalidating the knowledge.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  currentDialogue: 0
+  currentDialogueOption: 0
+  customerInfo: {fileID: 11400000, guid: 87c227d8dadc54b15ac45225546fbec9, type: 2}
+  dialoguePortraits: 00000000010000000000000006000000000000000000000001000000000000000500000006000000000000000600000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000002000000000000000600000000000000060000000000000002000000010000000000000001000000000000000500000000000000050000000000000000000000050000000000000000000000000000000000000000000000000000000000000006000000020000000600000000000000010000000000000001000000000000000000000000000000050000000500000000000000060000000000000005000000000000000000000000000000000000000000000000000000000000000000000006000000000000000100000006000000060000000600000000000000000000000100000000000000010000000600000001000000000000000600000001000000000000000500000000000000000000000000000000000000000000000000000000000000
+  talkJumps: 0100000019000000320000004b000000
+  endIndices: 06000000090000000d00000022000000260000002b0000003a0000003e0000004200000053000000570000005c000000
+  endFlag: 0
+  questionIndices: 030000001d0000003500000050000000
+  questionJumps: 05000000080000000b0000001f0000002400000028000000370000003c00000040000000520000005500000059000000
+  questionFlag: 0
+  infoIndices: 210000006300000063000000
+  infoFlag: 0
+  isTalking: 0
+  isBuying: 0
+  branchLocked: 0
+  lockedIndex: 99
+  requiredInfo: {fileID: 0}
+  friendshipIndices: 05000000240000003800000052000000630000006300000063000000630000006300000063000000
+  friendshipValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  friendshipFlag: 0
+  intuitionIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  intuitionFlag: 0
+  orderIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  neutralIndices: 59000000630000006300000063000000630000006300000063000000630000006300000063000000
+  chaosIndices: 28000000400000006300000063000000630000006300000063000000630000006300000063000000
+  orderFlag: 0
+  neutralFlag: 0
+  chaosFlag: 0
+  buyDialogue:
+  - So, can I get that sword?
+  - Where's the sword?
+  - I don't want all that.
+  - How much is it?
+  - Sold!
+  - Whoa, that's way too much!
+  - 'How about '
+  - Works for me!
+  - Hmm... fine.
+  - Sorry... I can't do that.
+  - But why would I need extra potions?
+  - The church will see you as well-prepared.
+  - Your healers might need healing too.
+  - You never know when you might want extra.
+  - The church doesn't let us bring potions to the exam...
+  - That... is very true.
+  - That could be, but... I don't need it right now.
+  - Sorry, I just want the sword.
+  - Sure, why not. Throw in the potions too!
+  - 
+  correctSupplementalIndex: 15
+  wantsToTrade: 0
+  isTrading: 0
+  mainSaleWentThrough: 0
+  suppSaleWentThrough: 0
+  saleDifference: 0
+  buyPortraits: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+  portraits:
+  - {fileID: 21300000, guid: 1ec3a7363f0ac432b8ba6e4ea1ec72d1, type: 3}
+  - {fileID: 21300000, guid: b34815c5cc07843f39fe9f9e6403efcc, type: 3}
+  - {fileID: 21300000, guid: 96271cb37bc784b4fbeb9832b43784fe, type: 3}
+  - {fileID: 21300000, guid: 66e855d73f56e4c369d8566da5169377, type: 3}
+  - {fileID: 21300000, guid: 989cf56394dec4e2186de3841bfeff03, type: 3}
+  - {fileID: 21300000, guid: e756764d74f4240fd89ab99871e0fa41, type: 3}
+  - {fileID: 21300000, guid: 19ebc47ea164443b596ab264e6f5e70f, type: 3}

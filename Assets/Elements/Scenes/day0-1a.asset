@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day0-1a
+  m_EditorClassIdentifier: 
+  sceneIndex: 1
+  sceneRoute: a
+  sceneDialogue:
+  - Phew...
+  - We did it! We beat them!
+  - It's all thanks to you...
+  - I barely knew how to move for a second there, let alone how to fight!
+  - But you helped me out...
+  - That was awesome!
+  - The iron sword helped for sure as well.
+  - You really saved me today...
+  - How can I repay you?
+  - 
+  - Oh yeah! Well...
+  - I was going to ask if you wanted to join the sentinels.
+  - There are non-combat roles, so you wouldn't have to do a combat exam like I will.
+  - I'll let you think about it though...
+  - I'm sure you have other opportunities ahead of you.
+  - Give it some thought!
+  - I'll come by and see you next week.
+  - Hopefully I'll be a sentinel by then.
+  - Thanks again!
+  - 
+  - Thanks!
+  - Oh shoot, I should really get going now.
+  - Thanks again for all your help today!
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 20
+  sceneQuestionIndex: 8
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - What were you going to say earlier?
+  - No need. Good luck on the sentinel exam!
+  lockedOptionIndex: 99
+  statToCheck: 
+  statValue: 0
+  lockedRouteChange: 
+  sceneJumps: 0a00000014000000
+  sceneEndIndices: 1200000016000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 0
+  endOfDay: 1
+  changeMusicFlag: 0
+  changeMusicIndices: 0100000063000000
+  musicToPlay: happy
+  characters:
+  - {fileID: 11400000, guid: b2700b4a525a44019a5127b9424b0548, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  characterTalking: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 06000000010000000000000001000000060000000100000000000000010000000600000000000000010000000000000000000000010000000000000002000000000000000100000000000000000000000100000006000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

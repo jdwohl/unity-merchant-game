@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf16a89f81d04415ebe3f2daff456011, type: 3}
+  m_Name: day1-1a
+  m_EditorClassIdentifier: 
+  sceneIndex: 1
+  sceneRoute: a
+  sceneDialogue:
+  - Ugh... They lived.
+  - Well, see ya later!
+  - ...
+  - What the hell was that...
+  - She was a lot stronger than she looked.
+  - Yeah, she almost killed us...
+  - But we lived!
+  - It's all thanks to you, my friend!
+  - Uhh... hello? Who casted Ward?
+  - Anyway, let me ask you what I was planning on the other day...
+  - Wanna join the sentinels? We could use someone like you.
+  - 
+  - Great to hear!
+  - I'll ask our captain about it right away.
+  - 
+  - I see.
+  - All good! Hope to see you around then.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sceneDialogueIndex: 0
+  sceneQuestionIndex: 10
+  sceneQuestionFlag: 0
+  sceneQuestionOptions:
+  - I would love to!
+  - I think I'll stay a regular merchant.
+  lockedOptionIndex: 0
+  statToCheck: order
+  statValue: 3
+  lockedRouteChange: aa
+  sceneJumps: 0c0000000f000000
+  sceneEndIndices: 0d00000010000000
+  sceneEndFlag: 0
+  rightBeforeBattle: 0
+  endOfDay: 0
+  changeMusicFlag: 0
+  changeMusicIndices: 0300000063000000
+  musicToPlay: happy
+  characters:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b76eebe4b56a4418d9b3c30971c6bdde, type: 2}
+  - {fileID: 11400000, guid: 501f1f962be2c49e0af5ce7c5955e436, type: 2}
+  - {fileID: 11400000, guid: 934572f83ad0b4e6ca05c8dbcbf07bde, type: 2}
+  - {fileID: 11400000, guid: e5480da64e1e543af8f5de13175cbba8, type: 2}
+  characterTalking: 04000000040000006300000005000000060000000500000003000000030000000600000003000000030000000000000003000000030000000000000003000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  characterPortrait: 03000000010000000000000005000000000000000500000001000000010000000500000006000000010000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

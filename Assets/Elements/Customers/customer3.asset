@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c09b8cdf9a746d69fa170fbf826bcb, type: 3}
+  m_Name: customer3
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
+  customerName: Jack
+  pronoun: he
+  friendship: 0
+  agreeability: 1
+  readability: 3
+  highMaxSpending: 0
+  realMaxSpending: 0
+  compromiseInterval: 0
+  mainWantedItem: hp ring
+  supplementalWantedItem: iron shield
+  talkOptions:
+  - What's with the armor?
+  - How did the exam go?
+  - What have you done so far?
+  - Any plans for the day?
+  branchChoices:
+  - Skills? You know skills now?
+  - Mmm, I still think it's more important to have higher speed.
+  - I'm glad you like it, even though it looks kinda silly.
+  - Sounds like you need a tactician by your side. Hmm...
+  - Doesn't that seem a little suspicious to you?
+  - That's great that the church could see past one poor performance.
+  - Why would you need to craft your own stuff?
+  - What did you try to make?
+  - Who was the best at it?
+  - Where will the practice be?
+  - Do you think you'll see more wolves?
+  - Will you be alright without me?
+  dialogue:
+  - Hey, it's good to see you! Did you hear? I'm a sentinel now!
+  - Oh, this? All sentinels have to wear it.
+  - It increases your defense, though it reduces your speed slightly.
+  - I think it's a worthy trade-off, especially when you take skills into account!
+  - 
+  - Oh yeah! Skills training is one of the first things we worked on.
+  - I don't have that many mastered yet...
+  - To be honest, I only have one so far.
+  - It's a good one though! Using it lowers the target's defense.
+  - It only costs a bit of HP...
+  - 
+  - I understand that.
+  - After all, high defense may not matter as much if you can defeat your enemies
+    quicker.
+  - Always the strategist you are!
+  - 
+  - Hah! I thought you might say that.
+  - I guess it does look a bit goofy.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - About that...
+  - Not great, haha.
+  - I got kinda nervous...
+  - I couldn't make decisions quick enough in the fight.
+  - I guess they saw something in me though, since they still let me join!
+  - 
+  - Right?! I was thinking that while I was fighting.
+  - Maybe I should have been focusing more on the fight at hand.
+  - Anyway, I don't remember if I said this before but...
+  - You should totally join the sentinels!
+  - 
+  - Huh? You mean like... the sentinels wanted me to join for some other reason?
+  - I suppose it's possible...
+  - I don't think it's true, though.
+  - 
+  - I agree! They're awesome like that.
+  - I'm so glad I got in...
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - So far? Hmm...
+  - Besides the skill training, nothing really.
+  - Oh! We did practice crafting our own weapons and armor a couple days ago.
+  - That was cool... I was pretty bad though.
+  - 
+  - We won't always have access to a cool merchant nearby, right?
+  - On long journeys, it would be nice to have such a resourceful skill.
+  - Or at least nice to have someone in our group who does... haha.
+  - 
+  - A few things, but the one I put the most effort into... was reinforcing my shield.
+  - I have a wooden one, but the classic upgrade is to strengthen it with iron.
+  - It was really hard, but I think I could do it if I put my mind to it!
+  - 
+  - The best? That would probably be Leon.
+  - I told him about you, so he might come here at some point!
+  - Apparently where he's from, they craft a lot of their own stuff.
+  - Pretty cool...
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Oh yeah, I wanted to tell you about today!
+  - Basically, we're gonna practice fighting against real monsters!
+  - It'll be good for us and also good for this region.
+  - I don't know if you've heard, but the monsters have been more aggressive recently..
+  - So I think we'll be doing a good thing for the people here.
+  - 
+  - Do you wanna come watch?
+  - Maybe you could help out a bit too, haha.
+  - There's a cave to the west of here that's supposed to be a den for some tough
+    monsters.
+  - That's where we'll be going. I'm so excited to fight more monsters!
+  - 
+  - Ha! I had wondered about that.
+  - We'll be going into a cave to the west of here, so...
+  - I don't know if there will be wolves all the way in there.
+  - I hope there will be some slimes though! I heard those are cute.
+  - 
+  - Ha! I hope so at least.
+  - I'll have some friends with me, so I think we'll be able to do it together.
+  - Vera especially is scarier than she looks...
+  - And I think she looks pretty scary, haha.
+  - 
+  - 
+  - 
+  - 
+  - 
+  currentDialogue: 0
+  currentDialogueOption: 0
+  customerInfo: {fileID: 11400000, guid: b1d84e13d75fd4b93a3a63f8925ab721, type: 2}
+  dialoguePortraits: 01000000000000000000000001000000000000000000000005000000000000000100000000000000000000000000000000000000010000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000050000000000000005000000050000000100000000000000010000000100000000000000010000000000000006000000050000000300000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000010000000200000001000000000000000000000000000000000000000000000000000000000000000000000001000000010000000000000005000000000000000000000001000000010000000000000001000000000000000100000000000000050000000100000000000000010000000000000005000000010000000000000000000000000000000000000000000000
+  talkJumps: 0100000019000000320000004b000000
+  endIndices: 090000000d00000010000000220000002600000029000000390000003d0000004200000054000000590000005e000000
+  endFlag: 0
+  questionIndices: 030000001d000000350000004f000000
+  questionJumps: 050000000b0000000f0000001f0000002400000028000000370000003b0000003f00000051000000560000005b000000
+  questionFlag: 0
+  infoIndices: 5400000057000000
+  infoFlag: 0
+  isTalking: 0
+  isBuying: 0
+  branchLocked: 0
+  lockedIndex: 99
+  requiredInfo: {fileID: 0}
+  friendshipIndices: 0d0000000f0000002200000040000000630000006300000063000000630000006300000063000000
+  friendshipValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  friendshipFlag: 0
+  intuitionIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  intuitionFlag: 0
+  orderIndices: 28000000630000006300000063000000630000006300000063000000630000006300000063000000
+  neutralIndices: 63000000630000006300000063000000630000006300000063000000630000006300000063000000
+  chaosIndices: 24000000630000006300000063000000630000006300000063000000630000006300000063000000
+  orderFlag: 0
+  neutralFlag: 0
+  chaosFlag: 0
+  buyDialogue:
+  - Say, that HP ring looks nice! Could I buy it?
+  - Uh... where's the ring?
+  - Sorry, I don't think I need that much.
+  - How much do you want?
+  - Deal!
+  - Hey, that's a bit much...
+  - 'What about '
+  - That works!
+  - I guess that's alright.
+  - Too much...
+  - I could use an iron shield, true... But why shouldn't I craft it myself?
+  - It probably wouldn't be as high quality as this one!
+  - You never know if you'll be able to do it.
+  - Who knows, you may need it later today.
+  - That's true, but... I think it would at least be good for me to keep trying.
+  - Even so, I still think it's worth a shot...
+  - You're right. I never know what exactly I'll need it for.
+  - I'll just take the ring, thanks.
+  - Sure, I'll take the shield as well!
+  - 
+  correctSupplementalIndex: 16
+  wantsToTrade: 0
+  isTrading: 0
+  mainSaleWentThrough: 0
+  suppSaleWentThrough: 0
+  saleDifference: 0
+  buyPortraits: 0100000005000000050000000600000001000000050000000000000001000000000000000500000000000000000000000000000000000000050000000500000000000000000000000100000000000000
+  portraits:
+  - {fileID: 21300000, guid: cda3edd18eea84c528f538da9a13b7c5, type: 3}
+  - {fileID: 21300000, guid: 36bebfedb5d7a4dfa8e2e83b915266d7, type: 3}
+  - {fileID: 21300000, guid: 3b107e86723f746a1a05417fb3a0f73e, type: 3}
+  - {fileID: 21300000, guid: ec4f946ad95a5459d8182928732461b5, type: 3}
+  - {fileID: 21300000, guid: 8cd93e4b24b2148f7a63bba1352f34cc, type: 3}
+  - {fileID: 21300000, guid: e68823875faf3454d8216fcdd69e2436, type: 3}
+  - {fileID: 21300000, guid: 924d122e20fef4268af022b6e4875dca, type: 3}
