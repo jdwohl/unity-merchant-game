@@ -48,6 +48,8 @@ public class GameController : MonoBehaviour
     public Button[] sceneQuestionButtons = new Button[2];
     public TextMeshProUGUI[] sceneQuestionOptions = new TextMeshProUGUI[2];
 
+    public FadeToBlack fadeToBlack;
+
     public int[] morality = new int[3];
     // first element is order, second element is neutral, third element is chaos
     public int[] money = new int[3];
@@ -156,9 +158,12 @@ public class GameController : MonoBehaviour
     public AudioSource happyAudio;
     public AudioSource bossAudio;
 
+    public AudioClip hitClip;
+
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(fadeToBlack.FadeInAndOutBlackSquare(2, "Day " + (currentDay + 1)));
         ResetCustomers();
         SetGameControllerReferenceOnItemDisplay();
         SetGameControllerReferenceOnInfoDisplay();
@@ -179,9 +184,13 @@ public class GameController : MonoBehaviour
 
         displayedText.text = textToDisplay;
         advancingEnabled = false;
+
+        IdleMode();
         //currentScene = days[0].scenes[0];
         //displayedText.text = currentScene.sceneDialogue[0];
         //inScene = true;
+
+        
     }
 
     // Update is called once per frame
@@ -320,16 +329,17 @@ public class GameController : MonoBehaviour
         {
             TradeQuestion();
         }
-        ////else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-        ////    SceneManager();
-        ////}
-
         // the below inputs were used for testing purposes
 
+        //else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        //{
+        //    SceneManager();
+        //}
         //else if (Input.GetKeyDown(KeyCode.RightShift))
         //{
         //    SaleCompleted();
-        //} else if (Input.GetKeyDown(KeyCode.UpArrow))
+        //}
+        //else if (Input.GetKeyDown(KeyCode.UpArrow))
         //{
         //    EndBattle("victory");
         //}
@@ -487,6 +497,8 @@ public class GameController : MonoBehaviour
 
         int jumpLocation = currentCustomer.questionJumps[(3*currentCustomer.currentDialogueOption) + option];
 
+        questionButtons[2].interactable = true;
+
         questionPanels.SetActive(false);
         textToDisplay = currentCustomer.CustomerDialogue(jumpLocation);
         displayedText.text = textToDisplay;
@@ -511,7 +523,7 @@ public class GameController : MonoBehaviour
             if (item != null)
             {
                 GameObject currentItemDisplay = Instantiate<GameObject>(itemDisplay, itemInventoryDisplay.transform, false);
-                currentItemDisplay.transform.position += Vector3.down * (35f * (i + 1));
+                currentItemDisplay.transform.position += Vector3.down * (28f * (i + 1));
 
                 ItemDisplay itemScript = currentItemDisplay.GetComponent<ItemDisplay>();
                 itemScript.itemText.text = item.keyword;
@@ -690,7 +702,7 @@ public class GameController : MonoBehaviour
             if (item != null)
             {
                 GameObject currentItemDisplay = Instantiate<GameObject>(itemDisplay, sellInventoryDisplay.transform, false);
-                currentItemDisplay.transform.position += Vector3.down * (35f * (i + 1));
+                currentItemDisplay.transform.position += Vector3.down * (28f * (i + 1));
 
                 ItemDisplay itemScript = currentItemDisplay.GetComponent<ItemDisplay>();
                 itemScript.itemText.text = item.keyword;
@@ -1172,6 +1184,9 @@ public class GameController : MonoBehaviour
             inventory.AddLast(itemDictionary["mp ring"]);
 
             currentDay++;
+
+            StartCoroutine(fadeToBlack.FadeInAndOutBlackSquare(2, "Day " + (currentDay + 1)));
+
             currentCustomerIndex = 0;
             currentCustomer = FindCurrentCustomer();
 
@@ -1956,6 +1971,8 @@ public class GameController : MonoBehaviour
             + defender.characterName + "!";
 
         UpdateBattlerDisplay(defender);
+
+        battleAudio.PlayOneShot(hitClip);
 
         CheckForBattleEnd();
 

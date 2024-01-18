@@ -11,6 +11,10 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 webgl_build_merchant_game/
+WebGL Builds/
+
+connectwebgl.zip
+webgl_sharing.*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

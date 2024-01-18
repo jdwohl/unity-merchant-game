@@ -24,7 +24,7 @@ MonoBehaviour:
   - But we lived!
   - It's all thanks to you, my friend!
   - Uhh... hello? Who casted Ward?
-  - Anyway, let me ask you what I was planning on the other day...
+  - Anyway, let me ask you what I was planning on earlier...
   - Wanna join the sentinels? We could use someone like you.
   - 
   - Great to hear!
@@ -55,7 +55,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  sceneDialogueIndex: 0
+  sceneDialogueIndex: 16
   sceneQuestionIndex: 10
   sceneQuestionFlag: 0
   sceneQuestionOptions:

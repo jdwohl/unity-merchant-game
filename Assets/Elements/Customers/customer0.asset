@@ -18,9 +18,9 @@ MonoBehaviour:
   friendship: 0
   agreeability: 1
   readability: 3
-  highMaxSpending: 52
-  realMaxSpending: 47
-  compromiseInterval: 37
+  highMaxSpending: 40
+  realMaxSpending: 39
+  compromiseInterval: 31
   mainWantedItem: iron sword
   supplementalWantedItem: potion x2
   talkOptions:
@@ -40,9 +40,10 @@ MonoBehaviour:
   - If you can, act to secure your advantage before the fight starts.
   - Not much, I still have a lot to learn.
   - I've been to quite a few places, so I would say I know a thing or two.
-  - How much you know isn't important, but how you interpret that knowledge is.
+  - How much you know isn't important, but how you interpret what you know.
   dialogue:
-  - Nice to meet you, I'm Jack! Would I be able to buy that iron sword there?
+  - Nice to meet you, I'm Jack! Would I be able to buy that iron sword there? (Press
+    space to advance through text)
   - Born and raised right here in Bloom, actually!
   - It's always so peaceful here, I really like it.
   - You're from a nearby town, right? Do you like it there?
@@ -146,13 +147,15 @@ MonoBehaviour:
   - 
   - 
   - 
-  currentDialogue: 0
-  currentDialogueOption: 0
+  currentDialogue: 92
+  currentDialogueOption: 3
   customerInfo: {fileID: 11400000, guid: 87c227d8dadc54b15ac45225546fbec9, type: 2}
+  specialIndex: 99
+  specialFlag: 0
   dialoguePortraits: 00000000010000000000000006000000000000000000000001000000000000000500000006000000000000000600000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000002000000000000000600000000000000060000000000000002000000010000000000000001000000000000000500000000000000050000000000000000000000050000000000000000000000000000000000000000000000000000000000000006000000020000000600000000000000010000000000000001000000000000000000000000000000050000000500000000000000060000000000000005000000000000000000000000000000000000000000000000000000000000000000000006000000000000000100000006000000060000000600000000000000000000000100000000000000010000000600000001000000000000000600000001000000000000000500000000000000000000000000000000000000000000000000000000000000
   talkJumps: 0100000019000000320000004b000000
   endIndices: 06000000090000000d00000022000000260000002b0000003a0000003e0000004200000053000000570000005c000000
-  endFlag: 0
+  endFlag: 1
   questionIndices: 030000001d0000003500000050000000
   questionJumps: 05000000080000000b0000001f0000002400000028000000370000003c00000040000000520000005500000059000000
   questionFlag: 0

@@ -40,7 +40,7 @@ public class BattleAlly : BattleCharacter
     public override void UpdateProgress()
     {
         allyButton.interactable = false;
-        currentCooldown = currentCooldown + Time.deltaTime;
+        currentCooldown += Time.deltaTime;
         float calcCooldown = currentCooldown / maxCooldown;
 
         progressBar.transform.localScale = new Vector3(Mathf.Clamp(calcCooldown, 0, 1), progressBar.transform.localScale.y, progressBar.transform.localScale.z);
